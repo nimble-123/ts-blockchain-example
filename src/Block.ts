@@ -15,7 +15,7 @@ export class Block {
     data: Blockdata;
     hash: string;
     previousHash: string;
-    timestamp: any;
+    timestamp: Date;
     pow: number;
 
     constructor(data: Blockdata, previousHash: string) {
