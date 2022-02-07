@@ -1,0 +1,12 @@
+{
+  "name": "ts-blockchain-example",
+  "version": "0.0.1",
+  "description": "A blockchain example in typescript",
+  "author": "Nils Lutz <nils.lutz@btc-ag.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
