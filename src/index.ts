@@ -23,7 +23,7 @@ blockchain.addBlock(secondBlockdata);
 
 // log out current state of the blockchain
 console.log('Blockchain state after adding two blocks:');
-console.dir(blockchain, { depth: null, colors: true });
+console.dir(blockchain, { depth: null });
 
 // check if blockchain is valid
 console.log(blockchain.isValid()); // true - since we haven't tampered with it
@@ -44,7 +44,7 @@ blockchain.chain[2].data.transactions.push({
 
 // log out state of the blockchain after tampering with it
 console.log('Blockchain state after tampering:');
-console.dir(blockchain, { depth: null, colors: true });
+console.dir(blockchain, { depth: null });
 
 // check if blockchain is still valid after tampering with it
 console.log(blockchain.isValid()); // false - tampered with the blockchain
