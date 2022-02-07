@@ -1,14 +1,19 @@
 {
-  "name": "ts-blockchain-example",
-  "version": "0.0.1",
-  "description": "A blockchain example in typescript",
-  "author": "Nils Lutz <nils.lutz@btc-ag.com>",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "build:ts": "npx tsc"
-  },
-  "devDependencies": {
-    "typescript": "^4.5.5"
-  }
+    "name": "ts-blockchain-example",
+    "version": "0.0.1",
+    "description": "A blockchain example in typescript",
+    "author": "Nils Lutz <nils.lutz@btc-ag.com>",
+    "license": "MIT",
+    "private": false,
+    "main": "dist/index.js",
+    "scripts": {
+        "format": "prettier --config .prettierrc src/**/*.ts --write",
+        "build:ts": "npx tsc",
+        "start": "node dist/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.15",
+        "prettier": "^2.5.1",
+        "typescript": "^4.5.5"
+    }
 }
