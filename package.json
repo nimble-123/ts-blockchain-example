@@ -5,7 +5,9 @@
   "author": "Nils Lutz <nils.lutz@btc-ag.com>",
   "license": "MIT",
   "private": false,
-  "scripts": {},
+  "scripts": {
+    "build:ts": "npx tsc"
+  },
   "devDependencies": {
     "typescript": "^4.5.5"
   }
